@@ -1,0 +1,58 @@
+.header{
+    background-image: linear-gradient(red, orange, yellow, pink, purple, indigo);
+    text-align: center;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+.navtop{
+    float: left;
+}
+.navtop a{
+    text-decoration: none;
+    display: block;
+    color: chocolate;
+    padding: 14px 16px;
+}
+.navtop a:hover{
+    background-color: coral;
+    color: cornflowerblue;
+}
+#image{
+    height: 400px;
+    width: 400px;
+    padding: 15px;
+    border-color: crimson;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 20px;
+}
+#image:hover{
+    height: 400px;
+    width: 400px;
+    padding: 15px;
+    border-color: springgreen;
+    border-style: double;
+    border-width: 8px;
+    border-radius: 21px;
+}
+body{
+    background-image: url("http://wallpapercave.com/wp/0SCjHAo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    font-family: cursive;
+    color: deeppink;
+    font-size: 14px;
+}
+.content:hover{
+    font-family: fantasy;
+    color: darkblue;
+    font-size: 15px;
+}
